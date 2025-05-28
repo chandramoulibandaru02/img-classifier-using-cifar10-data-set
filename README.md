@@ -1,70 +1,36 @@
-# img-classifier-using-cifar10-data-set
+🧠 Image Classification using ANN
+A simple image classification project using Artificial Neural Networks (ANN) built with TensorFlow/Keras. This project demonstrates how to preprocess image data, train a neural network model, evaluate its performance, and visualize predictions.
+🔧 Technologies Used
+           Python
+           TensorFlow / Keras
+           NumPy
+           Matplotlib
+           Seaborn
+           scikit-learn
 
-🔍 Overview
-The goal of this project is to:
+ 🧪 Model Workflow
+ Load and preprocess image data (e.g., MNIST or Fashion MNIST)
+ Normalize the pixel values
+ Define a Sequential ANN model
+ Compile with loss, optimizer, and metrics
+ Train using model.fit()
+ Predict classes using model.predict()
+ Evaluate using:
+ Accuracy
+ Classification Report
+ Confusion Matrix
+ Visualize correct and incorrect predictions
+ Save the model for future use
+ 📈 Evaluation Metrics
+ Accuracy – Overall prediction correctness
+ Precision & Recall – Per-class quality analysis
+ F1-Score – Balanced performance score
+ Confusion Matrix – Class-wise result breakdown
+ Future Enhancements
+  Upgrade to CNN for better accuracy
+  Use image data augmentation
+  Deploy as a web app using Streamlit or Flask
+  Enable real-time image upload and classification
+ 
 
-Preprocess image data
-
-Train an ANN to classify images
-
-Evaluate performance using metrics like accuracy, precision, recall
-
-Visualize correct and incorrect predictions
-
-Save and reuse the trained model
-
-🧠 Technologies Used
-Python
-
-TensorFlow / Keras
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-scikit-learn
-
- Model Workflow
-Load dataset (e.g., Fashion MNIST)
-
-Normalize and preprocess data
-
-Build a sequential ANN model
-
-Train using model.fit()
-
-Predict using model.predict()
-
-Evaluate with classification report and confusion matrix
-
-Visualize misclassified images
-
-Save the trained model for future use
-
-📊 Evaluation Metrics
-Accuracy: Overall correctness of the model
-
-Precision & Recall: Per-class prediction quality
-
-F1-score: Harmonic mean of precision and recall
-
-Confusion Matrix: Shows class-wise prediction performance
-
-📈 Sample Output
-Accuracy: ~92%
-
-Clear classification report
-
-Misclassified image samples displayed with predictions
-
-🛠 Future Improvements
- Try using CNN instead of ANN for better accuracy
-
- Use data augmentation to improve generalization
-
- Deploy using Streamlit or Flask
-
- Add custom image upload and prediction interface
 
